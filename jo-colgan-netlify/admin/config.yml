@@ -1,0 +1,143 @@
+# Editor for Jo Colgan's website (Sveltia CMS – works like Netlify/Decap CMS)
+# >>> Change the line below to your GitHub username/repository name <<<
+backend:
+  name: github
+  repo: GarethCrory/jo-colgan-site
+  branch: main
+
+site_url: /
+display_url: /
+media_folder: images
+public_folder: /images
+
+collections:
+  - name: website
+    label: Website
+    description: Everything on Jo's homepage. Click a section, edit, then press Save – the live site updates in about a minute.
+    editor: { preview: false }
+    files:
+      - name: site
+        label: Homepage
+        file: content/site.json
+        format: json
+        fields:
+          - { name: siteTitle, label: Site name, widget: string }
+          - { name: siteSubtitle, label: Under the name (e.g. Pianist), widget: string }
+          - { name: seoDescription, label: Google description, widget: text, hint: "The short summary Google shows under the site name." }
+
+          - name: theme
+            label: Colours
+            widget: object
+            collapsed: true
+            fields:
+              - { name: background, label: Page background, widget: color }
+              - { name: panel, label: Shaded sections (About & Testimonials), widget: color }
+              - { name: header, label: Header, footer & quote cards, widget: color }
+              - { name: text, label: Main text, widget: color }
+              - { name: mutedText, label: Softer text, widget: color }
+              - { name: accent, label: Buttons & highlights, widget: color }
+              - { name: accentDark, label: Buttons when hovered, widget: color }
+              - { name: lines, label: Thin dividing lines, widget: color }
+              - { name: heroOverlay, label: Dark tint over photos, widget: color }
+
+          - name: hero
+            label: Top banner
+            widget: object
+            fields:
+              - { name: image, label: Background photo, widget: image }
+              - { name: eyebrow, label: Small text above name, widget: string }
+              - { name: heading, label: Big heading, widget: string }
+              - { name: subheading, label: Italic line, widget: string }
+              - { name: tags, label: Small capitals line, widget: string }
+              - { name: primaryButton, label: First button text, widget: string }
+              - { name: secondaryButton, label: Second button text, widget: string }
+
+          - name: services
+            label: Services
+            widget: object
+            fields:
+              - { name: heading, label: Heading, widget: string }
+              - name: items
+                label: Services (up to 4 look best)
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - { name: icon, label: Icon, widget: select, options: [rings, glasses, hotel, note, piano, heart, star], default: note }
+                  - { name: title, label: Title, widget: string }
+                  - { name: text, label: Text, widget: text }
+
+          - name: about
+            label: About Jo
+            widget: object
+            fields:
+              - { name: heading, label: Heading, widget: string }
+              - { name: image, label: Photo, widget: image }
+              - { name: paragraphs, label: Paragraphs, widget: list, field: { name: paragraph, label: Paragraph, widget: text } }
+              - { name: quote, label: Highlighted quote, widget: string, required: false }
+              - { name: buttonText, label: Button text, widget: string }
+
+          - name: music
+            label: Music
+            widget: object
+            fields:
+              - { name: heading, label: Heading, widget: string }
+              - { name: eyebrow, label: Small text under heading, widget: string }
+              - name: cards
+                label: Playlist cards
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - { name: title, label: Card title, widget: string }
+                  - { name: image, label: Card photo, widget: image }
+                  - { name: lines, label: Lines shown on the card, widget: list, field: { name: line, label: Line, widget: string } }
+                  - { name: songs, label: "Songs to play (titles must match the Repertoire list exactly)", widget: list, field: { name: song, label: Song title, widget: string } }
+              - { name: repertoireButton, label: Full repertoire button text, widget: string }
+              - name: repertoire
+                label: Repertoire (every song with a recording)
+                widget: list
+                summary: "{{fields.title}} – {{fields.artist}}"
+                fields:
+                  - { name: title, label: Song, widget: string }
+                  - { name: artist, label: Artist / composer, widget: string, required: false }
+                  - { name: audio, label: Recording (MP3), widget: file, media_folder: /audio, public_folder: /audio, hint: "Upload an MP3, or paste a link to one." }
+
+          - name: testimonials
+            label: Testimonials
+            widget: object
+            fields:
+              - { name: heading, label: Heading, widget: string }
+              - name: items
+                label: Quotes
+                widget: list
+                summary: "{{fields.quote}}"
+                fields:
+                  - { name: quote, label: Quote, widget: text }
+                  - { name: by, label: From (e.g. Bride & Groom), widget: string, required: false }
+
+          - name: band
+            label: Wedding banner
+            widget: object
+            fields:
+              - { name: image, label: Background photo, widget: image }
+              - { name: heading, label: Heading, widget: string }
+              - { name: text, label: Text, widget: string }
+              - { name: buttonText, label: Button text, widget: string }
+
+          - name: contact
+            label: Contact
+            widget: object
+            fields:
+              - { name: heading, label: Heading, widget: string }
+              - { name: intro, label: Intro text, widget: text }
+              - { name: phone, label: Phone number, widget: string }
+              - { name: facebook, label: Facebook link, widget: string }
+              - { name: instagram, label: Instagram link, widget: string }
+              - { name: formButton, label: Form button text, widget: string }
+              - { name: thankYouHeading, label: Thank-you page heading, widget: string }
+              - { name: thankYouText, label: Thank-you page text, widget: string }
+
+          - name: footer
+            label: Footer
+            widget: object
+            fields:
+              - { name: tagline, label: Line under the name, widget: string }

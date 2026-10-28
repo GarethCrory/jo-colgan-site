@@ -1,0 +1,127 @@
+{
+  "siteTitle": "Jo Colgan",
+  "siteSubtitle": "Pianist",
+  "seoDescription": "Jo Colgan is a pianist offering beautiful live piano music for weddings, private events and hotel lounges across Ireland. Resident pianist at the Slieve Donard for over 20 years.",
+  "theme": {
+    "background": "#f3eee9",
+    "panel": "#e9dfd8",
+    "header": "#efe7e1",
+    "text": "#2b2321",
+    "mutedText": "#5c504b",
+    "accent": "#8e5b62",
+    "accentDark": "#764950",
+    "lines": "#cdbfb6",
+    "heroOverlay": "#281a15"
+  },
+  "hero": {
+    "eyebrow": "Beautiful live piano music for weddings, private events and hotel lounges",
+    "heading": "Jo Colgan",
+    "subheading": "Professional Pianist",
+    "tags": "Weddings · Events · Special Occasions",
+    "image": "https://images.squarespace-cdn.com/content/v1/6365804e2c2e2b11a837808a/1667727463453-WRH9OJ8Z7WESO04J0ITI/A7404805.jpg?format=2500w",
+    "primaryButton": "Listen to Jo →",
+    "secondaryButton": "Enquire →"
+  },
+  "services": {
+    "heading": "Creating the perfect atmosphere",
+    "items": [
+      { "icon": "rings", "title": "Weddings", "text": "A romantic and personal soundtrack to your day." },
+      { "icon": "glasses", "title": "Events", "text": "Sophisticated music for any occasion." },
+      { "icon": "hotel", "title": "Hotels", "text": "Resident pianist at the Slieve Donard for over 20 years." },
+      { "icon": "note", "title": "Private Functions", "text": "Elegant piano music for family celebrations, corporate events and more." }
+    ]
+  },
+  "about": {
+    "heading": "A little about Jo",
+    "image": "https://images.squarespace-cdn.com/content/v1/6365804e2c2e2b11a837808a/1667727124846-91VO2U4RFS6R2VVBINI4/A7404828.jpg?format=2500w",
+    "paragraphs": [
+      "Jo Colgan is a pianist who has played at venues all over Ireland. She has been resident pianist at the Slieve Donard Resort & Spa for more than two decades, and still plays most weekends in the hotel's restaurant, JJ's.",
+      "Jo is a regular at weddings and events at the Slieve Donard and Hillsborough Castle. A highlight of her career was performing at the 25th anniversary celebrations of the Good Friday Agreement.",
+      "She has also provided live piano accompaniment for professional choreographers at the MAC in Belfast, during an immersive training programme for Akram Khan."
+    ],
+    "quote": "Professional, accommodating and clearly very experienced.",
+    "buttonText": "Get in touch →"
+  },
+  "music": {
+    "heading": "Hear Jo play",
+    "eyebrow": "A selection of favourites",
+    "cards": [
+      {
+        "title": "Wedding Favourites",
+        "image": "https://images.squarespace-cdn.com/content/v1/6365804e2c2e2b11a837808a/1667727146921-I12978ETJZVRVUB6PJ56/A7404799.jpg?format=1500w",
+        "lines": ["A Thousand Years", "Can't Help Falling in Love", "Have I Told You Lately"],
+        "songs": ["A Thousand Years", "Can't Help Falling in Love", "Have I Told You Lately"]
+      },
+      {
+        "title": "Popular & Contemporary",
+        "image": "https://images.squarespace-cdn.com/content/v1/6365804e2c2e2b11a837808a/1667727256593-0K70U36YQLYOBXNU4OAZ/A7404821.jpg?format=1500w",
+        "lines": ["Adele", "Ed Sheeran", "Snow Patrol"],
+        "songs": ["Someone Like You", "Thinking Out Loud", "Run"]
+      },
+      {
+        "title": "Irish & Folk",
+        "image": "https://images.squarespace-cdn.com/content/v1/6365804e2c2e2b11a837808a/1667727284805-1L0K1XFLNB4OK0MX3L8I/A7404783.jpg?format=1500w",
+        "lines": ["Christy Moore", "The Chieftains", "Sinéad O'Connor"],
+        "songs": ["Ride On", "Star of the County Down", "She Moved Through the Fair"]
+      }
+    ],
+    "repertoireButton": "Listen to the full repertoire →",
+    "repertoire": [
+      { "title": "A Thousand Years", "artist": "Christina Perri", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/63677823efbeb91ebee8e36f/1791835538809/A%2BThousand%2BYears.mp3" },
+      { "title": "Ain't No Sunshine", "artist": "Bill Withers", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/636778237bdf8d6295d1a778/1667725411688/Ain%27t%2BNo%2BSunshine.mp3" },
+      { "title": "Feather Theme (Forrest Gump)", "artist": "Alan Silvestri", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/63677832bff1ee2e74eba749/1667725517381/Forest%2BGump.mp3" },
+      { "title": "Hallelujah", "artist": "Leonard Cohen", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/6367783eaad62e55e236ea97/1667725586628/Hallelujah.mp3" },
+      { "title": "Halo", "artist": "Beyoncé", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/63677844a0b2f8274376d12f/1667725595476/Halo.mp3" },
+      { "title": "Have I Told You Lately", "artist": "Van Morrison", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/6367784acae2ad63d8101395/1667725700909/Have%2BI%2BTold%2BYou%2BLately.mp3" },
+      { "title": "Hello", "artist": "Adele", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/63677851ef73e25bbb562c04/1667725714416/Hello.mp3" },
+      { "title": "House of the Rising Sun", "artist": "The Animals", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/63677868a101fd0e9d47c774/1667725763348/House%2Bof%2Bthe%2BRising%2BSun.mp3" },
+      { "title": "Can't Help Falling in Love", "artist": "Elvis Presley", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/6367787131010f3c83652a44/1667726324018/I%2Bcan%27t%2Bhelp%2Bfalling%2Bin%2Blove%2Bwith%2Byou.mp3" },
+      { "title": "Sorry", "artist": "Justin Bieber", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/63677878c789044e5b07953d/1667725825685/Justin%2BBieber.mp3" },
+      { "title": "Love Me Tender", "artist": "Elvis Presley", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/6367787a85ff2d79b1be89e8/1667725844705/Love%2Bme%2BTender.mp3" },
+      { "title": "Make You Feel My Love", "artist": "Bob Dylan", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/63677880056cd96f750ed041/1667725908397/Make%2Byou%2Bfeel%2Bmy%2Blove.mp3" },
+      { "title": "New World Symphony", "artist": "Dvořák", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/6367786bc85d7e6f72de9845/1667726312909/Hovis.mp3" },
+      { "title": "Over the Rainbow", "artist": "Eva Cassidy", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/6367788aecf7782e5e984b20/1667725974824/Over%2Bthe%2Brainbow.mp3" },
+      { "title": "Perfect Day", "artist": "Lou Reed", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/63677895ecf7782e5e984b4b/1667726001292/Perfect%2Bday.mp3" },
+      { "title": "Ride On", "artist": "Christy Moore", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/6367785b5f063c5f404e9a4c/1667725733061/Horse.mp3" },
+      { "title": "Run", "artist": "Snow Patrol", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/6367789fe1b65f028fb75933/1667726056911/Run.mp3" },
+      { "title": "Runnin'", "artist": "Beyoncé ft. Naughty Boy", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/636778a7a101fd0e9d47c7d7/1667726041101/Runnin.mp3" },
+      { "title": "Set Fire to the Rain / Wrecking Ball", "artist": "Adele / Miley Cyrus", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/636778a92ab6724288d139db/1667726095665/Set%2Bfire%2Bto%2Bthe%2Brain%2B%26%2BWrecking%2Bball.mp3" },
+      { "title": "She Moved Through the Fair", "artist": "Sinéad O'Connor", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/636778b23dde1608dd7a0d1f/1667726150486/She%2Bmoves%2Bthrough%2Bthe%2Bfair.mp3" },
+      { "title": "Smells Like Teen Spirit", "artist": "Nirvana", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/636778b3d4eaa5274823ff7f/1668190977041/Smells%2Blike%2BTeen%2BSpirit.mp3" },
+      { "title": "Someone Like You", "artist": "Adele", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/636778bad4eaa52748240275/1668200292312/Someone%2Blike.mp3" },
+      { "title": "Songbird", "artist": "Eva Cassidy", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/636778be7686f25e85081307/1667726170938/Songbird.mp3" },
+      { "title": "The Sound of Silence", "artist": "Simon & Garfunkel", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/636778c9add0ac1e4f4f3788/1667726184902/Sound%2Bof%2BSilence.mp3" },
+      { "title": "Star of the County Down", "artist": "The Chieftains", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/636778c99859f31a2c631116/1667726211266/Star%2Bof%2Bthe%2BCounty%2BDown.mp3" },
+      { "title": "Sweet Child o' Mine", "artist": "Guns N' Roses", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/636778d1d1be552f5ffa7c7b/1667726196880/Sweet%2BChild%2Bo%27%2Bmine.mp3" },
+      { "title": "Take Back the River", "artist": "James Bay", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/636778d298794148f8eed3b2/1667726226473/Take%2Bback%2Bthe%2BRiver.mp3" },
+      { "title": "Thinking Out Loud", "artist": "Ed Sheeran", "audio": "https://static1.squarespace.com/static/6365804e2c2e2b11a837808a/636580e89859f31a2c352389/636778d87be8805f6ea96d5f/1667726240019/Thinking%2Bout%2Bloud.mp3" }
+    ]
+  },
+  "testimonials": {
+    "heading": "What couples say",
+    "items": [
+      { "quote": "Jo added something really special to our day.", "by": "Bride & Groom" },
+      { "quote": "The music was completely effortless but flowed so beautifully throughout our ceremony.", "by": "Bride & Groom" },
+      { "quote": "An amazing range of music, from the old classics to the modern covers.", "by": "Bride & Groom" }
+    ]
+  },
+  "band": {
+    "heading": "Your wedding. Your music. Your moment.",
+    "text": "I'd love to help make your day extra special.",
+    "buttonText": "Enquire about your date →",
+    "image": "https://images.squarespace-cdn.com/content/v1/6365804e2c2e2b11a837808a/1667727284805-1L0K1XFLNB4OK0MX3L8I/A7404783.jpg?format=2500w"
+  },
+  "contact": {
+    "heading": "Get in touch",
+    "intro": "Whether you're planning a wedding, a hotel event or a private celebration, send Jo a few details and she'll get back to you with availability and a quote.",
+    "phone": "07872 953224",
+    "facebook": "https://www.facebook.com/JoColgan",
+    "instagram": "https://www.instagram.com/jo.colgan/",
+    "formButton": "Send enquiry →",
+    "thankYouHeading": "Your enquiry has been sent",
+    "thankYouText": "Jo will be in touch with you shortly."
+  },
+  "footer": {
+    "tagline": "Live piano for weddings, private events and hotel lounges."
+  }
+}
