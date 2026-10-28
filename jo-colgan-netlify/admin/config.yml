@@ -1,5 +1,4 @@
 # Editor for Jo Colgan's website (Sveltia CMS – works like Netlify/Decap CMS)
-# >>> Change the line below to your GitHub username/repository name <<<
 backend:
   name: github
   repo: GarethCrory/jo-colgan-site
@@ -7,7 +6,7 @@ backend:
 
 site_url: /
 display_url: /
-media_folder: images
+media_folder: jo-colgan-netlify/images
 public_folder: /images
 
 collections:
@@ -18,7 +17,7 @@ collections:
     files:
       - name: site
         label: Homepage
-        file: content/site.json
+        file: jo-colgan-netlify/content/site.json
         format: json
         fields:
           - { name: siteTitle, label: Site name, widget: string }
@@ -99,7 +98,7 @@ collections:
                 fields:
                   - { name: title, label: Song, widget: string }
                   - { name: artist, label: Artist / composer, widget: string, required: false }
-                  - { name: audio, label: Recording (MP3), widget: file, media_folder: /audio, public_folder: /audio, hint: "Upload an MP3, or paste a link to one." }
+                  - { name: audio, label: Recording (MP3), widget: file, media_folder: /jo-colgan-netlify/audio, public_folder: /audio, hint: "Upload an MP3, or paste a link to one." }
 
           - name: testimonials
             label: Testimonials
