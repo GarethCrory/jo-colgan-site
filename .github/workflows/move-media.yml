@@ -1,0 +1,22 @@
+name: Move media off Squarespace
+on:
+  push:
+    paths: ['.github/workflows/move-media.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  move:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download photos and recordings, point site at local copies
+        working-directory: jo-colgan-netlify
+        run: bash move-media-off-squarespace.sh
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add -A jo-colgan-netlify
+          git commit -m "Move Jo's photos and recordings off Squarespace" || echo "nothing to commit"
+          git push
