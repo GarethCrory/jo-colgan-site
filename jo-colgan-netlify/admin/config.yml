@@ -4,8 +4,8 @@ backend:
   repo: GarethCrory/jo-colgan-site
   branch: main
 
-site_url: /
-display_url: /
+site_url: https://jo-colgan-netlify.netlify.app
+display_url: https://jo-colgan-netlify.netlify.app
 media_folder: jo-colgan-netlify/images
 public_folder: /images
 
